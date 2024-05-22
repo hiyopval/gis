@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_25ffaee95f6d3aec42a74b0ff15f88f1 {
+                #map_8fc6fc4273c5d8beeea4bdeae3d81f41 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_25ffaee95f6d3aec42a74b0ff15f88f1" ></div>
+            <div class="folium-map" id="map_8fc6fc4273c5d8beeea4bdeae3d81f41" ></div>
         
 </body>
 <script>
     
     
-            var map_25ffaee95f6d3aec42a74b0ff15f88f1 = L.map(
-                "map_25ffaee95f6d3aec42a74b0ff15f88f1",
+            var map_8fc6fc4273c5d8beeea4bdeae3d81f41 = L.map(
+                "map_8fc6fc4273c5d8beeea4bdeae3d81f41",
                 {
                     center: [35.666961675658605, 139.72650782519426],
                     crs: L.CRS.EPSG3857,
@@ -60,37 +60,43 @@
 
         
     
-            var tile_layer_30c0a530dbcb97bfcac6695bb3af9c56 = L.tileLayer(
+            var tile_layer_7825b502ccecdea039cd4140f380baaa = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_30c0a530dbcb97bfcac6695bb3af9c56.addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            tile_layer_7825b502ccecdea039cd4140f380baaa.addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
     
-            var marker_06b9519d339108aa7bf4c09aaa48a8d2 = L.marker(
+            var marker_0cc44e1e7fb3569086899ab709f27e29 = L.marker(
                 [35.685689958293516, 139.69210725235016],
                 {}
-            ).addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            ).addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
     
-        var popup_a437bdab2baa57a6a6c5d4926c600292 = L.popup({"maxWidth": "100%"});
+            var icon_006dd7b19b40195b9749f08f993b8b7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_0cc44e1e7fb3569086899ab709f27e29.setIcon(icon_006dd7b19b40195b9749f08f993b8b7c);
+        
+    
+        var popup_58f6681ea0bd863574e48220eaf60ca2 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3600c958b9385c7f9c1a1a0b35dcbd3d = $(`<div id="html_3600c958b9385c7f9c1a1a0b35dcbd3d" style="width: 100.0%; height: 100.0%;">The Jones Cafe Bar, the best place on earth!</div>`)[0];
-                popup_a437bdab2baa57a6a6c5d4926c600292.setContent(html_3600c958b9385c7f9c1a1a0b35dcbd3d);
+                var html_20e73e869bd6ae1c93c9801f8cb89494 = $(`<div id="html_20e73e869bd6ae1c93c9801f8cb89494" style="width: 100.0%; height: 100.0%;">The Jones Cafe Bar, the best place on earth!</div>`)[0];
+                popup_58f6681ea0bd863574e48220eaf60ca2.setContent(html_20e73e869bd6ae1c93c9801f8cb89494);
             
         
 
-        marker_06b9519d339108aa7bf4c09aaa48a8d2.bindPopup(popup_a437bdab2baa57a6a6c5d4926c600292)
+        marker_0cc44e1e7fb3569086899ab709f27e29.bindPopup(popup_58f6681ea0bd863574e48220eaf60ca2)
         ;
 
         
     
     
-            marker_06b9519d339108aa7bf4c09aaa48a8d2.bindTooltip(
+            marker_0cc44e1e7fb3569086899ab709f27e29.bindTooltip(
                 `<div>
                      The Jones Cafe Bar
                  </div>`,
@@ -98,28 +104,34 @@
             );
         
     
-            var marker_c15c91e4e1beb669c00c1629a6b42b01 = L.marker(
+            var marker_b19e8bdd270e1f65f751716479d7e2a9 = L.marker(
                 [35.646256019537944, 139.74503494807047],
                 {}
-            ).addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            ).addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
     
-        var popup_8f705295cd40870982eb962599f85262 = L.popup({"maxWidth": "100%"});
+            var icon_a2cc17c931f9e11a2a2e1fa2bb47b33e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b19e8bdd270e1f65f751716479d7e2a9.setIcon(icon_a2cc17c931f9e11a2a2e1fa2bb47b33e);
+        
+    
+        var popup_d5da63e103085970f6fdb78cd72fd0bc = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_a597f50c8ff551d071d716b097dcb503 = $(`<div id="html_a597f50c8ff551d071d716b097dcb503" style="width: 100.0%; height: 100.0%;">Jahocoffeejapan, the best place on earth!</div>`)[0];
-                popup_8f705295cd40870982eb962599f85262.setContent(html_a597f50c8ff551d071d716b097dcb503);
+                var html_67384dcd216ff2d59fcd6456b73e7c58 = $(`<div id="html_67384dcd216ff2d59fcd6456b73e7c58" style="width: 100.0%; height: 100.0%;">Jahocoffeejapan, the best place on earth!</div>`)[0];
+                popup_d5da63e103085970f6fdb78cd72fd0bc.setContent(html_67384dcd216ff2d59fcd6456b73e7c58);
             
         
 
-        marker_c15c91e4e1beb669c00c1629a6b42b01.bindPopup(popup_8f705295cd40870982eb962599f85262)
+        marker_b19e8bdd270e1f65f751716479d7e2a9.bindPopup(popup_d5da63e103085970f6fdb78cd72fd0bc)
         ;
 
         
     
     
-            marker_c15c91e4e1beb669c00c1629a6b42b01.bindTooltip(
+            marker_b19e8bdd270e1f65f751716479d7e2a9.bindTooltip(
                 `<div>
                      Jahocoffeejapan
                  </div>`,
@@ -127,28 +139,34 @@
             );
         
     
-            var marker_74a17fac3d0d2ca414ebb355f38cc42f = L.marker(
+            var marker_f85b79c5927c5ab1817f01d7675cd0b7 = L.marker(
                 [35.67431000616222, 139.7600507693085],
                 {}
-            ).addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            ).addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
     
-        var popup_42104462c687baaaaa46ddb194802690 = L.popup({"maxWidth": "100%"});
+            var icon_04be1227c63c5ec834da56cc9a027928 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_f85b79c5927c5ab1817f01d7675cd0b7.setIcon(icon_04be1227c63c5ec834da56cc9a027928);
+        
+    
+        var popup_b4e096792c4a7ad4e9923d751e34ccc1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_2b143367bfee85b1f5d8a177293a5734 = $(`<div id="html_2b143367bfee85b1f5d8a177293a5734" style="width: 100.0%; height: 100.0%;">LE SALON DE NINA'S, the best place on earth!</div>`)[0];
-                popup_42104462c687baaaaa46ddb194802690.setContent(html_2b143367bfee85b1f5d8a177293a5734);
+                var html_0ef11660ebbc5d9e3b8b028da2c9a7b5 = $(`<div id="html_0ef11660ebbc5d9e3b8b028da2c9a7b5" style="width: 100.0%; height: 100.0%;">LE SALON DE NINA'S, the best place on earth!</div>`)[0];
+                popup_b4e096792c4a7ad4e9923d751e34ccc1.setContent(html_0ef11660ebbc5d9e3b8b028da2c9a7b5);
             
         
 
-        marker_74a17fac3d0d2ca414ebb355f38cc42f.bindPopup(popup_42104462c687baaaaa46ddb194802690)
+        marker_f85b79c5927c5ab1817f01d7675cd0b7.bindPopup(popup_b4e096792c4a7ad4e9923d751e34ccc1)
         ;
 
         
     
     
-            marker_74a17fac3d0d2ca414ebb355f38cc42f.bindTooltip(
+            marker_f85b79c5927c5ab1817f01d7675cd0b7.bindTooltip(
                 `<div>
                      LE SALON DE NINA'S
                  </div>`,
@@ -156,28 +174,34 @@
             );
         
     
-            var marker_f443520fabf24ca823e51f11382295b7 = L.marker(
+            var marker_03716d87ef5ecfea3ed12cebb8c45c01 = L.marker(
                 [35.67391352619888, 139.75919765420448],
                 {}
-            ).addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            ).addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
     
-        var popup_3490220af7040c646fc340390bc0507e = L.popup({"maxWidth": "100%"});
+            var icon_e644d4824ce6c71fa46a4968f8769b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_03716d87ef5ecfea3ed12cebb8c45c01.setIcon(icon_e644d4824ce6c71fa46a4968f8769b4a);
+        
+    
+        var popup_a4cb4d8db2131034df5b7a388cf72ccc = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_cc2910d8b71f66981f88b5f49dba8943 = $(`<div id="html_cc2910d8b71f66981f88b5f49dba8943" style="width: 100.0%; height: 100.0%;">Buvette Tokyo, the best place on earth!</div>`)[0];
-                popup_3490220af7040c646fc340390bc0507e.setContent(html_cc2910d8b71f66981f88b5f49dba8943);
+                var html_286dacf83726a0235a2bb2eb00885971 = $(`<div id="html_286dacf83726a0235a2bb2eb00885971" style="width: 100.0%; height: 100.0%;">Buvette Tokyo, the best place on earth!</div>`)[0];
+                popup_a4cb4d8db2131034df5b7a388cf72ccc.setContent(html_286dacf83726a0235a2bb2eb00885971);
             
         
 
-        marker_f443520fabf24ca823e51f11382295b7.bindPopup(popup_3490220af7040c646fc340390bc0507e)
+        marker_03716d87ef5ecfea3ed12cebb8c45c01.bindPopup(popup_a4cb4d8db2131034df5b7a388cf72ccc)
         ;
 
         
     
     
-            marker_f443520fabf24ca823e51f11382295b7.bindTooltip(
+            marker_03716d87ef5ecfea3ed12cebb8c45c01.bindTooltip(
                 `<div>
                      Buvette Tokyo
                  </div>`,
@@ -185,28 +209,34 @@
             );
         
     
-            var marker_6332b64ed4596322e1dda046c782c65a = L.marker(
+            var marker_33861d1f78bf5b5216fadd9db8bc4350 = L.marker(
                 [35.651040103534676, 139.7069992233782],
                 {}
-            ).addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            ).addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
     
-        var popup_b2763d948dde8e28ffd2258bc771adb9 = L.popup({"maxWidth": "100%"});
+            var icon_352dcdebe059592656807c63da66bc8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_33861d1f78bf5b5216fadd9db8bc4350.setIcon(icon_352dcdebe059592656807c63da66bc8a);
+        
+    
+        var popup_28e61b0ee9760c47f1b17287bdb440c8 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_9e06263ffcdda218ce52daf8525d8e5c = $(`<div id="html_9e06263ffcdda218ce52daf8525d8e5c" style="width: 100.0%; height: 100.0%;">cafe accueil, the best place on earth!</div>`)[0];
-                popup_b2763d948dde8e28ffd2258bc771adb9.setContent(html_9e06263ffcdda218ce52daf8525d8e5c);
+                var html_328073123fd92179942548603e20ad5c = $(`<div id="html_328073123fd92179942548603e20ad5c" style="width: 100.0%; height: 100.0%;">cafe accueil, the best place on earth!</div>`)[0];
+                popup_28e61b0ee9760c47f1b17287bdb440c8.setContent(html_328073123fd92179942548603e20ad5c);
             
         
 
-        marker_6332b64ed4596322e1dda046c782c65a.bindPopup(popup_b2763d948dde8e28ffd2258bc771adb9)
+        marker_33861d1f78bf5b5216fadd9db8bc4350.bindPopup(popup_28e61b0ee9760c47f1b17287bdb440c8)
         ;
 
         
     
     
-            marker_6332b64ed4596322e1dda046c782c65a.bindTooltip(
+            marker_33861d1f78bf5b5216fadd9db8bc4350.bindTooltip(
                 `<div>
                      cafe accueil
                  </div>`,
@@ -214,7 +244,7 @@
             );
         
     
-            tile_layer_30c0a530dbcb97bfcac6695bb3af9c56.addTo(map_25ffaee95f6d3aec42a74b0ff15f88f1);
+            tile_layer_7825b502ccecdea039cd4140f380baaa.addTo(map_8fc6fc4273c5d8beeea4bdeae3d81f41);
         
 </script>
 </html>
