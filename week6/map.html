@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_796c495856dfb990f4c41fbdf458b999 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_796c495856dfb990f4c41fbdf458b999" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_796c495856dfb990f4c41fbdf458b999 = L.map(
+                "map_796c495856dfb990f4c41fbdf458b999",
+                {
+                    center: [35.69448272653246, 139.73525308941467],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_34e7f484d8a878e60b35043a934d2f30 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_34e7f484d8a878e60b35043a934d2f30.addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var marker_5a13175d9e8224ffe0708324df73efda = L.marker(
+                [35.66222665, 139.669462547317],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_cbf89b0d115588ef4439dd5e6ea11333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a13175d9e8224ffe0708324df73efda.setIcon(icon_cbf89b0d115588ef4439dd5e6ea11333);
+        
+    
+        var popup_60c8c0ce77aa1152f3f0746de5764ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9ea9a63513e789ad25e658d3f8dfcf6 = $(`<div id="html_a9ea9a63513e789ad25e658d3f8dfcf6" style="width: 100.0%; height: 100.0%;"><div style="width:350px">健康マージャン、麻雀教室、ノーレートフリーが遊べるお店。下北沢駅から徒歩3分。</div></div>`)[0];
+                popup_60c8c0ce77aa1152f3f0746de5764ee2.setContent(html_a9ea9a63513e789ad25e658d3f8dfcf6);
+            
+        
+
+        marker_5a13175d9e8224ffe0708324df73efda.bindPopup(popup_60c8c0ce77aa1152f3f0746de5764ee2)
+        ;
+
+        
+    
+    
+            marker_5a13175d9e8224ffe0708324df73efda.bindTooltip(
+                `<div>
+                     まーすた下北沢店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f475d48e79d36048d0ca46913aacd962 = L.marker(
+                [35.7555418129096, 139.738005564417],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_5b7a492c244f2038f1ce6f9e6896dd4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f475d48e79d36048d0ca46913aacd962.setIcon(icon_5b7a492c244f2038f1ce6f9e6896dd4b);
+        
+    
+        var popup_55c7ad49d059bc1729277db195e48eea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be7a6538de008c77511d3335d0509f74 = $(`<div id="html_be7a6538de008c77511d3335d0509f74" style="width: 100.0%; height: 100.0%;"><div style="width:350px">健康マージャン、麻雀教室、ノーレートフリーが遊べるお店。王子駅から徒歩4分。</div></div>`)[0];
+                popup_55c7ad49d059bc1729277db195e48eea.setContent(html_be7a6538de008c77511d3335d0509f74);
+            
+        
+
+        marker_f475d48e79d36048d0ca46913aacd962.bindPopup(popup_55c7ad49d059bc1729277db195e48eea)
+        ;
+
+        
+    
+    
+            marker_f475d48e79d36048d0ca46913aacd962.bindTooltip(
+                `<div>
+                     まーすた王子店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0f5b0c88b135315efe664e3102ad501 = L.marker(
+                [35.70285306713, 139.770736650925],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_5d98630832cda81d4b023d752404a911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0f5b0c88b135315efe664e3102ad501.setIcon(icon_5d98630832cda81d4b023d752404a911);
+        
+    
+        var popup_6ba156061e4f83810dff8b8405a18bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37d5faf77359b8f7ed851a2b83f74da2 = $(`<div id="html_37d5faf77359b8f7ed851a2b83f74da2" style="width: 100.0%; height: 100.0%;"><div style="width:350px">ノーレート麻雀とRPGを融合したシステムで、コスプレをした女の子と麻雀が打てる。秋葉原駅から徒歩8分。</div></div>`)[0];
+                popup_6ba156061e4f83810dff8b8405a18bb7.setContent(html_37d5faf77359b8f7ed851a2b83f74da2);
+            
+        
+
+        marker_a0f5b0c88b135315efe664e3102ad501.bindPopup(popup_6ba156061e4f83810dff8b8405a18bb7)
+        ;
+
+        
+    
+    
+            marker_a0f5b0c88b135315efe664e3102ad501.bindTooltip(
+                `<div>
+                     てんぱね
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db3d2594131f43651058bbdbb17aa07c = L.marker(
+                [35.71175100734, 139.708628364417],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_9c10d07ec8bea53b9936074fcdca0fd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db3d2594131f43651058bbdbb17aa07c.setIcon(icon_9c10d07ec8bea53b9936074fcdca0fd8);
+        
+    
+        var popup_0a6969d66087fadbff495e42ae2796cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_037fdea555ac897987f40fb5b4449e34 = $(`<div id="html_037fdea555ac897987f40fb5b4449e34" style="width: 100.0%; height: 100.0%;"><div style="width:350px">日本健康麻将協会所属店。海鮮丼付き飲み放題の居酒屋マージャン店。夜は居酒屋セット麻雀営業だが、昼間は曜日に応じて「麻雀教室」「健康マージャン」等営業。高田馬場駅から徒歩5分。</div></div>`)[0];
+                popup_0a6969d66087fadbff495e42ae2796cd.setContent(html_037fdea555ac897987f40fb5b4449e34);
+            
+        
+
+        marker_db3d2594131f43651058bbdbb17aa07c.bindPopup(popup_0a6969d66087fadbff495e42ae2796cd)
+        ;
+
+        
+    
+    
+            marker_db3d2594131f43651058bbdbb17aa07c.bindTooltip(
+                `<div>
+                     健康麻将&居酒屋麻雀ガラパゴス 高田馬場店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f893a7ddc562b4f0b549cd92e77cdc8e = L.marker(
+                [35.70337499265, 139.6649967459],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_ebb2395af7cf46e1cde9c1bf5784f4a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f893a7ddc562b4f0b549cd92e77cdc8e.setIcon(icon_ebb2395af7cf46e1cde9c1bf5784f4a7);
+        
+    
+        var popup_3cd2664351232807a9afb8706ead399f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca17de6c3eb653069caced7435ce51ad = $(`<div id="html_ca17de6c3eb653069caced7435ce51ad" style="width: 100.0%; height: 100.0%;"><div style="width:350px">ノーレート雀荘。店内禁煙。中野駅周辺唯一のノーレート店。中野駅から徒歩5分。</div></div>`)[0];
+                popup_3cd2664351232807a9afb8706ead399f.setContent(html_ca17de6c3eb653069caced7435ce51ad);
+            
+        
+
+        marker_f893a7ddc562b4f0b549cd92e77cdc8e.bindPopup(popup_3cd2664351232807a9afb8706ead399f)
+        ;
+
+        
+    
+    
+            marker_f893a7ddc562b4f0b549cd92e77cdc8e.bindTooltip(
+                `<div>
+                     麻雀ラブリースマイル ノーレートフリー雀荘
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4f5cf14d2ca28d5285199e565c5ed60 = L.marker(
+                [35.69633944836, 139.791207],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_dd370228f76aa05e7d7514d50863f05e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4f5cf14d2ca28d5285199e565c5ed60.setIcon(icon_dd370228f76aa05e7d7514d50863f05e);
+        
+    
+        var popup_b698e20d2878916c119d5b6279c1165e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_698f4ca595c9030c97c016c56f9edb95 = $(`<div id="html_698f4ca595c9030c97c016c56f9edb95" style="width: 100.0%; height: 100.0%;"><div style="width:350px">幅広い年代から愛されるお店。経験者コースや個人レッスンなど様々な層に対応。両国駅から徒歩1分。</div></div>`)[0];
+                popup_b698e20d2878916c119d5b6279c1165e.setContent(html_698f4ca595c9030c97c016c56f9edb95);
+            
+        
+
+        marker_b4f5cf14d2ca28d5285199e565c5ed60.bindPopup(popup_b698e20d2878916c119d5b6279c1165e)
+        ;
+
+        
+    
+    
+            marker_b4f5cf14d2ca28d5285199e565c5ed60.bindTooltip(
+                `<div>
+                     「かぼちゃ倶楽部」健康マージャン教室 両国カルチャーセンター
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84e09e56a9d55071bd4c33483aa2df9f = L.marker(
+                [35.69821001, 139.7863827],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_2078a3f6639856e698cadf27de9756c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84e09e56a9d55071bd4c33483aa2df9f.setIcon(icon_2078a3f6639856e698cadf27de9756c0);
+        
+    
+        var popup_712927c8822cf912baca419c262e4905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25de145e74f9f28cf0f531564c88efc4 = $(`<div id="html_25de145e74f9f28cf0f531564c88efc4" style="width: 100.0%; height: 100.0%;"><div style="width:350px">日本プロ麻雀連盟公式ルールのノーレートフリーが遊べるお店。麻雀教室も開講中。浅草橋から徒歩1分。</div></div>`)[0];
+                popup_712927c8822cf912baca419c262e4905.setContent(html_25de145e74f9f28cf0f531564c88efc4);
+            
+        
+
+        marker_84e09e56a9d55071bd4c33483aa2df9f.bindPopup(popup_712927c8822cf912baca419c262e4905)
+        ;
+
+        
+    
+    
+            marker_84e09e56a9d55071bd4c33483aa2df9f.bindTooltip(
+                `<div>
+                     健康麻雀 ひよこ堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6efd2034aa697dfd921137a8f7c3331e = L.marker(
+                [35.65715225, 139.6974316],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_e09c1d79cf0a30efa06c6093554775b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6efd2034aa697dfd921137a8f7c3331e.setIcon(icon_e09c1d79cf0a30efa06c6093554775b0);
+        
+    
+        var popup_18f88bd8732faefd766f063746c90dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc400d62bca3d9e879031bf9547d5934 = $(`<div id="html_cc400d62bca3d9e879031bf9547d5934" style="width: 100.0%; height: 100.0%;"><div style="width:350px">ノーレートフリーマージャン店。実力をレートに換算したシステムや月間賞など商品が盛りだくさん。渋谷駅から徒歩3分。</div></div>`)[0];
+                popup_18f88bd8732faefd766f063746c90dad.setContent(html_cc400d62bca3d9e879031bf9547d5934);
+            
+        
+
+        marker_6efd2034aa697dfd921137a8f7c3331e.bindPopup(popup_18f88bd8732faefd766f063746c90dad)
+        ;
+
+        
+    
+    
+            marker_6efd2034aa697dfd921137a8f7c3331e.bindTooltip(
+                `<div>
+                     しぶとん
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fee47275eaf80047cb5c7926538e65ef = L.marker(
+                [35.69863089, 139.7763436],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_eface7565314c8abd5cb33bb4ae2f1d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fee47275eaf80047cb5c7926538e65ef.setIcon(icon_eface7565314c8abd5cb33bb4ae2f1d5);
+        
+    
+        var popup_49d2d0a5179fe8c12d068fb4b7503306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5811bc932024c22c29fce7a89cef55d9 = $(`<div id="html_5811bc932024c22c29fce7a89cef55d9" style="width: 100.0%; height: 100.0%;"><div style="width:350px">ノーレート競技サロン。健康マージャンや初心者教室、レベルアップ講座など様々なレベルの層に対応した教室が開講されている。私が一番よく行く雀荘。秋葉原駅から徒歩1分。</div></div>`)[0];
+                popup_49d2d0a5179fe8c12d068fb4b7503306.setContent(html_5811bc932024c22c29fce7a89cef55d9);
+            
+        
+
+        marker_fee47275eaf80047cb5c7926538e65ef.bindPopup(popup_49d2d0a5179fe8c12d068fb4b7503306)
+        ;
+
+        
+    
+    
+            marker_fee47275eaf80047cb5c7926538e65ef.bindTooltip(
+                `<div>
+                     雀友倶楽部 秋葉原店～ノーレート健康マージャン～
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8a101f7a34212d30c9ec0928489fec9 = L.marker(
+                [35.71197766, 139.7041797],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_1322188a0d3c536f3040ee5789a83203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8a101f7a34212d30c9ec0928489fec9.setIcon(icon_1322188a0d3c536f3040ee5789a83203);
+        
+    
+        var popup_8ed9ff00b6ce4aa952cfa2fc2dc0a575 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f03269f41864db05e438a68813dae27 = $(`<div id="html_6f03269f41864db05e438a68813dae27" style="width: 100.0%; height: 100.0%;"><div style="width:350px">完全禁煙のお店。月、水は女性限定の麻雀教室を開催。火、木は健康マージャンが楽しめる。高田馬場駅から徒歩1分。</div></div>`)[0];
+                popup_8ed9ff00b6ce4aa952cfa2fc2dc0a575.setContent(html_6f03269f41864db05e438a68813dae27);
+            
+        
+
+        marker_d8a101f7a34212d30c9ec0928489fec9.bindPopup(popup_8ed9ff00b6ce4aa952cfa2fc2dc0a575)
+        ;
+
+        
+    
+    
+            marker_d8a101f7a34212d30c9ec0928489fec9.bindTooltip(
+                `<div>
+                     麻雀OZ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73f921b2be400f74cdac5401a937a43d = L.marker(
+                [35.66556089, 139.7553981],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_083100fa28a52cdc9cea56d668b456e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73f921b2be400f74cdac5401a937a43d.setIcon(icon_083100fa28a52cdc9cea56d668b456e8);
+        
+    
+        var popup_4271f5db47e213d8fad24cf778993065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35dda69b1d1f74af607f3d789fda7f2c = $(`<div id="html_35dda69b1d1f74af607f3d789fda7f2c" style="width: 100.0%; height: 100.0%;"><div style="width:350px">東京で麻雀初心者のデビューに一番選ばれるノーレート麻雀店。毎月2,3回行われるプロ雀士のオフ会イベントも人気。椅子がとてもふかふかで嬉しい。新橋駅から徒歩2分。</div></div>`)[0];
+                popup_4271f5db47e213d8fad24cf778993065.setContent(html_35dda69b1d1f74af607f3d789fda7f2c);
+            
+        
+
+        marker_73f921b2be400f74cdac5401a937a43d.bindPopup(popup_4271f5db47e213d8fad24cf778993065)
+        ;
+
+        
+    
+    
+            marker_73f921b2be400f74cdac5401a937a43d.bindTooltip(
+                `<div>
+                     麻雀ベルバード新橋店【麻雀初心者の殿堂】
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a715dd01c0ec22fd6c0c721c8f8b0fc = L.marker(
+                [35.67017404, 139.7602645],
+                {}
+            ).addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+    
+            var icon_039d0ae982a9f57a922ecb1a9f3b11a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a715dd01c0ec22fd6c0c721c8f8b0fc.setIcon(icon_039d0ae982a9f57a922ecb1a9f3b11a4);
+        
+    
+        var popup_768232dc74a268f341d5d69652f87066 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a98e1f13afe553bb9b1c2b04f1addd01 = $(`<div id="html_a98e1f13afe553bb9b1c2b04f1addd01" style="width: 100.0%; height: 100.0%;"><div style="width:350px">シニア層のお客様が多め。Ｍリーガー来店イベント開催実績が全国最多。セット営業と健康マージャン教室運営。</div></div>`)[0];
+                popup_768232dc74a268f341d5d69652f87066.setContent(html_a98e1f13afe553bb9b1c2b04f1addd01);
+            
+        
+
+        marker_6a715dd01c0ec22fd6c0c721c8f8b0fc.bindPopup(popup_768232dc74a268f341d5d69652f87066)
+        ;
+
+        
+    
+    
+            marker_6a715dd01c0ec22fd6c0c721c8f8b0fc.bindTooltip(
+                `<div>
+                     銀座花サロン
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            tile_layer_34e7f484d8a878e60b35043a934d2f30.addTo(map_796c495856dfb990f4c41fbdf458b999);
+        
+</script>
+</html>
